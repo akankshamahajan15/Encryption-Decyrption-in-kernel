@@ -3,6 +3,15 @@
 					AKANKSHA MAAHAJAN
 					112074564
 
+PROBLEM STATEMENT:
+Create a Linux kernel module (in vanilla 4.20.y Linux) that, when loaded into Linux, will support a new system call
+called
+	sys_cpenc(infile, outfile, keybuf, keylen, flags)
+where "infile" is the name of an input file to encrypt or decrypt, "outfile" is the output file,
+"keybuf" is a buffer holding the cipher key, "keylen" is the length of that buffer, and "flags" determine
+if you're encrypting or decrypting.
+
+
 
 => do ./xcpenc -h for help function
 => Enable EXTRA_CREIT to view -C option in help function
